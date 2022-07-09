@@ -100,4 +100,5 @@ def start(message):
         time.sleep(interval)
 
 
-bot.infinity_polling()
+if __name__ == '__main__':
+        bot.infinity_polling()
